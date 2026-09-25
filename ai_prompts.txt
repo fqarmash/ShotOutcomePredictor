@@ -1,0 +1,52 @@
+AI Prompts Used
+
+1. Data loading
+"How can I load a large compressed CSV file efficiently in Python and inspect the columns without using too much memory?"
+
+2. Cleaning a complex feature
+"I have a column called closestdefapproach that contains several numeric values inside one field. Can you show me a simple way to extract the numbers into separate columns?"
+
+3. Handling missing values
+"What is a reasonable way to handle missing numeric values before training classification models?"
+
+4. Exploratory analysis
+"Can you suggest a few basic plots to compare made and missed NBA shots using numerical and categorical features?"
+
+5. Preparing features
+"How should I convert boolean, numeric-looking, and categorical columns into a format that scikit-learn models can use?"
+
+6. Feature selection
+"Can you show me how to use Random Forest feature importance to keep only the most useful features?"
+
+7. Logistic Regression
+"Can you provide a basic Logistic Regression example for binary classification and explain which preprocessing it needs?"
+
+8. Random Forest
+"Can you show me how to train a Random Forest classifier with settings that are not too heavy on memory?"
+
+9. XGBoost
+"How can I train an XGBoost classifier on a large dataset using lighter settings?"
+
+10. Model evaluation
+"How do I calculate Accuracy, Precision, Recall, and F1-score for several models and store the results in one table?"
+
+11. Comparing models
+"Can you show me how to make a grouped bar chart comparing Accuracy, Precision, Recall, and F1-score across multiple classifiers?"
+
+12. Runtime and memory issues
+"My notebook is running out of memory when I train models on the full dataset. What are some simple ways to reduce memory use without changing the whole project?"
+
+13. Extra models
+"I want to compare a couple more classifiers. Can you show me examples using ExtraTreesClassifier and HistGradientBoostingClassifier?"
+
+14. Selecting a final model
+"How can I select the model with the highest F1-score from a results DataFrame and then use that trained model for predictions?"
+
+15. Test-set preparation
+"How do I make sure the test dataset has the same processed features and column order as the training dataset?"
+
+16. Probability predictions
+"Help me generate class probabilities instead of just 0/1 predictions and save them as make_prob?"
+
+17. Submission file
+"Help me create a CSV with shot_id and make_prob in the required submission format"
